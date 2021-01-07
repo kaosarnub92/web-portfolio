@@ -2,6 +2,19 @@ body{
     font-family: 'Poppins', sans-serif;
     margin:0;
 }
+ul{
+list-style: none;
+}
+ ul li {
+    float: right;
+
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 12px 22px;
+
+}
 h1{
     font-size: 50px;
 }
@@ -21,7 +34,7 @@ p{
     padding: 2%;
 }
 .half-width img{
-    width: 100%;
+    width: 60%;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -29,7 +42,7 @@ p{
 }
 section{
     height: 500px;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
 }
 .link-button{
     text-decoration: none;
@@ -49,21 +62,30 @@ section{
         height: 80%;
         background-color:white;
     }
-    .experiance-area{
-        background-image: url(images/exp-bg.png);
-        background-repeat: no-repeat;
+    div.item{
+        vertical-align: top;
+        display: inline-block;
+        text-align: center;
+        width: 120px;
     }
-
-#full-stack{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightsalmon, tomato);
-    border-image-slice: 1;
-}
-#baby-web{
-    border-left: 7px solid;
-    border-image:linear-gradient(180deg, lightsalmon, tomato) ;
-    border-image-slice: 1;
-}
+    img{
+        width: 100px;
+        height: 100px;
+        background-color: grey;
+    }
+    .caption{
+        display: block;
+    }
+    .over{
+        text-align: center;
+    }
+    .work{
+        background-color: lightblue;
+        width: 300px;
+        border: 15px solid green;
+        padding: 50px;
+        margin: 20px;
+    }
 footer p{
     text-align: center;
     font-size: 12px;
